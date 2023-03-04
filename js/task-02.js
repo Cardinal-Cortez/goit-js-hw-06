@@ -14,7 +14,7 @@ const eatEl = ingredients.forEach((ingredient, index)=> {
   
 liEl.textContent = ingredient;
 liEl.classList.add("item");
-ingredientsList.prepend(liEl  )
+ingredientsList.prepend(liEl)
 })
 
 
